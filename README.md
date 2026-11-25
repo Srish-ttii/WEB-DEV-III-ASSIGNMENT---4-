@@ -1,9 +1,9 @@
 # WEB-DEV-3-LAB-4 - Secure Connect Platform (Lab 4)
 
 > **Student Submission Details:**  
-> - **Student Name:** Anubhav  
+> - **Student Name:** Srishti  
 > - **Section:** F  
-> - **Roll Number:** 2501730406  
+> - **Roll Number:** 2501730380  
 > - **Project:** Lab 4 - Secure Connect Platform (REST API & Real-Time Communication)
 
 ---
@@ -114,7 +114,7 @@ Create or verify your `.env` file in the root folder with the following variable
 ```env
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/secure_connect_lab4
-JWT_SECRET=supersecretjwtkey_anubhav_lab4
+JWT_SECRET=supersecretjwtkey_Srishti_lab4
 ```
 
 ### 5. Run the Server
@@ -150,8 +150,8 @@ Registers a new user on the platform. Passwords must be at least 6 characters.
 - **Request Body:**
   ```json
   {
-    "username": "anubhav",
-    "email": "anubhav@example.com",
+    "username": "Srishti",
+    "email": "Srishti@example.com",
     "password": "password123"
   }
   ```
@@ -160,8 +160,8 @@ Registers a new user on the platform. Passwords must be at least 6 characters.
   {
     "message": "User registered",
     "id": "6734c5e317d2d451279f9e72",
-    "username": "anubhav",
-    "email": "anubhav@example.com"
+    "username": "Srishti",
+    "email": "Srishti@example.com"
   }
   ```
 
@@ -172,7 +172,7 @@ Authenticates existing credentials and returns a signed JWT.
 - **Request Body:**
   ```json
   {
-    "email": "anubhav@example.com",
+    "email": "Srishti@example.com",
     "password": "password123"
   }
   ```
@@ -252,7 +252,7 @@ socket.emit("joinRoom", "project-room-f");
 
 ### 3. Sending a Message
 ```javascript
-socket.emit("chatMessage", "Hello from Anubhav!");
+socket.emit("chatMessage", "Hello from Srishti!");
 ```
 
 ### 4. Listening for Messages
@@ -302,8 +302,8 @@ All endpoints have been tested using **Thunder Client**. Complete test output sc
 
 ## 👨‍💻 Author
 
-- **Name:** Anubhav
+- **Name:** Srishti
 - **Section:** F
-- **Roll Number:** 2501730406
+- **Roll Number:** 2501730380
 - **License:** ISC
 
